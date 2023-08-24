@@ -30,6 +30,7 @@ public class LaunchBenePay {
 
 		 final ChromeDriver driver = new ChromeDriver(options);
 
+		 
 		driver.manage().window().maximize();
 
 		DevTools devtools = driver.getDevTools();
